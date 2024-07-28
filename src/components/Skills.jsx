@@ -4,8 +4,8 @@ function Skills() {
     const skillSet = [
         {
             id: 1,
-            name: "Agriculture Practices",
-            subSkill: ["Crop Management", "Oyster Mushroom", "Spawn Production", "Sustainable Farming"]
+            name: "Hard Skills",
+            subSkill: ["Crop Management", "Sustainable Agriculture Practices", "Pest and Disease Management", "Field Research"]
         }, 
         {
             id: 2,
