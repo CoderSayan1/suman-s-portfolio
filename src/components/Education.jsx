@@ -15,7 +15,7 @@ function Education() {
             institution: "The Neotia University",
             address: "South 24 Parganas, West Bengal, India",
             duration: "2020-2024",
-            marks: "CGPA- 8.47"
+            marks: "CGPA- 8.50"
         },
         {
             name: "Higher Secondary Education",

@@ -5,25 +5,29 @@ function Works() {
         {
             id: 1,
             name: "Experimental learning program",
-            address: "School of Agriculture and Allied Sciences, TNU South 24 Parganas, West Bengal, India",
+            institute: "School of Agriculture and Allied Sciences",
+            address: "TNU South 24 Parganas, West Bengal, India",
             date: "Jan-2024 to Jun-2024"
         },
         {
             id: 2,
             name: "Agricultural Industrial Attachment",
-            address: "Rallis India Ltd. (A TATA Enterprise), Internship Trainee Barasat, West Bengal, India",
+            institute: "Rallis India Ltd. (A TATA Enterprise), Internship Trainee",
+            address: "Barasat, West Bengal, India",
             date: "Nov-2023 to Dec-2023"
         },
         {
             id: 3,
             name: "ATC Internship",
-            address: "Agricultural Training Centre, Internship Trainee Chinsurah, West Bengal, India",
+            institute: "Agricultural Training Centre, Internship Trainee",
+            address: "Chinsurah, West Bengal, India",
             date: "Sep-2023 to Nov-2023"
         },
         {
             id: 4,
             name: "Rural Agricultural Work Experience",
-            address: "School of Agriculture and Allied Sciences, TNU South 24 Parganas, West Bengal, India",
+            institute: "School of Agriculture and Allied Sciences",
+            address: "TNU South 24 Parganas, West Bengal, India",
             date: "July-2023 to Sep-2023"
         }
     ]
@@ -35,7 +39,8 @@ function Works() {
                 <div className='md:p-4 p-2 mb-2 rounded-xl shadow-style hover:translate-x-2 hover:cursor-pointer' key={experience.id}>
                     <h2 className='md:text-2xl text-xl'>{experience.name}</h2>
                     <h3>{experience.date}</h3>
-                    <p className='md:text-lg text-sm md:my-3 my-1'>{experience.address}</p>
+                    <p className='md:text-lg text-sm md:mt-3 mt-1'>{experience.institute}</p>
+                    <p>{experience.address}</p>
                 </div>
             ))}
         </div>

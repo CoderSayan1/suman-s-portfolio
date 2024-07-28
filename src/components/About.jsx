@@ -29,7 +29,7 @@ function About() {
         </div>
         <p className='md:text-lg text-[16px]'>M.Sc.(Ag.) in Agronomy at The Neotia University || Former Intern at Rallis India Ltd.</p>
         <div className='flex my-4 items-center md:gap-x-8 gap-x-4 md:text-2xl text-xl p-2'>
-          <a href='/' className='button-design transition duration-300 rounded-full border border-sky-500 w-10 h-10 inline-flex justify-center items-center border-solid bg-transparent text-[#0ef]'><FaFacebook /></a>
+          <a href='https://www.facebook.com/sumanmaji2812?mibextid=ZbWKwL' target='_blank' className='button-design transition duration-300 rounded-full border border-sky-500 w-10 h-10 inline-flex justify-center items-center border-solid bg-transparent text-[#0ef]'><FaFacebook /></a>
           <a href="https://www.instagram.com/sumanmaji2812?igsh=MTVpbHRyNHgyNThzaQ==" target='_blank' className='button-design transition duration-300 rounded-full border border-sky-500 w-10 h-10 inline-flex justify-center items-center border-solid bg-transparent text-[#0ef]'><FaInstagram /></a>
           <a href="https://www.linkedin.com/in/suman-maji" target='_blank' className='button-design transition duration-300 rounded-full border border-sky-500 w-10 h-10 inline-flex justify-center items-center border-solid bg-transparent text-[#0ef]'><FaLinkedin /></a>
         </div>

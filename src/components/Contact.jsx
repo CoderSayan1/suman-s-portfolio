@@ -39,13 +39,11 @@ function Contact() {
           <span className="text-cyan-500">Me</span>
         </h1>
         <p className="md:text-xl text-lg">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam,
-          expedita esse? Ut dolores corrupti obcaecati. Error necessitatibus
-          molestias et non molestiae omnis quod.
+          Feel free to reach via email or connect with me on social media. I am excited to discuss opportunities in agriculture and agronomy.
         </p>
         <div className="flex my-8 gap-x-6 text-xl">
           <a href="https://www.linkedin.com/in/suman-maji" target="_blank" className='button-design transition duration-300 rounded-full border border-sky-500 w-10 h-10 inline-flex justify-center items-center border-solid bg-transparent text-[#0ef]'><FaLinkedin /></a>
-          <a href="" target="_blank" className='button-design transition duration-300 rounded-full border border-sky-500 w-10 h-10 inline-flex justify-center items-center border-solid bg-transparent text-[#0ef]'><FaSquareXTwitter /></a>
+          <a href="https://x.com/Suman_Maji_093?t=c_YNKZntnFbqzWprM0krsA&s=09" target="_blank" className='button-design transition duration-300 rounded-full border border-sky-500 w-10 h-10 inline-flex justify-center items-center border-solid bg-transparent text-[#0ef]'><FaSquareXTwitter /></a>
           <a href="mailto:sumanmaji241@gmail.com" target="_blank" className='button-design transition duration-300 rounded-full border border-sky-500 w-10 h-10 inline-flex justify-center items-center border-solid bg-transparent text-[#0ef]'><MdEmail /></a>
         </div>
       </div>
