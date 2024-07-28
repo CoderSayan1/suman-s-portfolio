@@ -5,8 +5,8 @@ function Works() {
         {
             id: 1,
             name: "Experimental learning program",
-            institute: "School of Agriculture and Allied Sciences",
-            address: "TNU South 24 Parganas, West Bengal, India",
+            institute: "School of Agriculture and Allied Sciences, TNU",
+            address: "South 24 Parganas, West Bengal, India",
             date: "Jan-2024 to Jun-2024"
         },
         {
@@ -26,8 +26,8 @@ function Works() {
         {
             id: 4,
             name: "Rural Agricultural Work Experience",
-            institute: "School of Agriculture and Allied Sciences",
-            address: "TNU South 24 Parganas, West Bengal, India",
+            institute: "School of Agriculture and Allied Sciences, TNU",
+            address: "South 24 Parganas, West Bengal, India",
             date: "July-2023 to Sep-2023"
         }
     ]
