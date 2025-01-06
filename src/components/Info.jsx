@@ -1,5 +1,5 @@
 import React from "react";
-import photo from "/images/photo.png";
+import photo from "/images/photo2.png";
 
 function Info() {
   return (

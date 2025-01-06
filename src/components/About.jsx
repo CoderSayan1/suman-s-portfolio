@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram, FaLinkedin  } from "react-icons/fa6";
-import image from '/images/photo.png'
+import image from '/images/photo2.png'
 import { TypeAnimation } from 'react-type-animation';
 import myResume from "/resume/cv.pdf"
 
