@@ -7,6 +7,12 @@ import Navbar from './components/Navbar'
 import Skills from './components/Skills'
 import Works from './components/Works'
 import {ToastContainer} from 'react-toastify'
+import { lazy, Suspense } from 'react'
+
+// const About = lazy(() => import('./components/About'))
+// <Suspense fallback={<p>Loading...</p>}>
+//         <About />
+//       </Suspense>
 
 function App() {
 

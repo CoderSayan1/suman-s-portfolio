@@ -3,6 +3,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaInstagram, FaLinkedin  } from "react-icons/fa6";
 import image from '/images/photo.png'
 import { TypeAnimation } from 'react-type-animation';
+import myResume from "/resume/cv.pdf"
 
 
 function About() {
@@ -30,12 +31,12 @@ function About() {
         <p className='md:text-lg text-[16px]'>M.Sc.(Ag.) in Agronomy at The Neotia University || Former Intern at Rallis India Ltd.</p>
         <div className='flex my-4 items-center md:gap-x-8 gap-x-4 md:text-2xl text-xl p-2'>
           <a href='https://www.facebook.com/sumanmaji2812?mibextid=ZbWKwL' target='_blank' className='button-design transition duration-300 rounded-full border border-sky-500 w-10 h-10 inline-flex justify-center items-center border-solid bg-transparent text-[#0ef]'><FaFacebook /></a>
-          <a href="https://www.instagram.com/sumanmaji2812?igsh=MTVpbHRyNHgyNThzaQ==" target='_blank' className='button-design transition duration-300 rounded-full border border-sky-500 w-10 h-10 inline-flex justify-center items-center border-solid bg-transparent text-[#0ef]'><FaInstagram /></a>
+          <a href="https://www.instagram.com/sumanmaji__/profilecard/?igsh=MTVpbHRyNHgyNThzaQ==" target='_blank' className='button-design transition duration-300 rounded-full border border-sky-500 w-10 h-10 inline-flex justify-center items-center border-solid bg-transparent text-[#0ef]'><FaInstagram /></a>
           <a href="https://www.linkedin.com/in/suman-maji" target='_blank' className='button-design transition duration-300 rounded-full border border-sky-500 w-10 h-10 inline-flex justify-center items-center border-solid bg-transparent text-[#0ef]'><FaLinkedin /></a>
         </div>
         <div className='flex justify-between md:w-[70%] w-full'>
           <a href="tel:+91 7439749480" className="transition duration-300 bg-cyan-500 font-semibold md:text-xl text-lg md:px-4 px-2 py-2 rounded inline-block button-design text-black">Contact me</a>
-          <a href="">
+          <a href={myResume} target='_blank'>
             <button className="transition duration-300 bg-cyan-500 font-semibold md:text-xl text-lg md:px-4 px-2 py-2 rounded inline-block button-design text-black">My CV</button>
           </a>
         </div>
