@@ -14,7 +14,7 @@ function Navbar() {
 
   return (
     <div className="fixed top-0 left-0 w-full bg-[#0b2a3b] flex justify-between items-center px-6 py-4 md:px-14 md:py-6 z-[100]">
-      <a href="/" className="relative text-xl font-semibold text-white">
+      <a href="#" className="relative text-xl font-semibold text-white">
         Portfolio
       </a>
       <button
